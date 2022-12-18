@@ -1,7 +1,7 @@
 import ProductItem from "./ProductItem";
 import classes from "./ProductList.module.css";
 
-function ProductList(props) {
+function MeetupsList(props) {
   return (
     <ul className={classes.list}>
       {props.meetups.map((meetup) => (
@@ -17,4 +17,4 @@ function ProductList(props) {
   );
 }
 
-export default ProductList;
+export default MeetupsList;
